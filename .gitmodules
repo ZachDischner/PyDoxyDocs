@@ -1,0 +1,3 @@
+[submodule "doxypypy"]
+	path = doxypypy
+	url = https://github.com/Feneric/doxypypy.git
