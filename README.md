@@ -17,6 +17,9 @@ doxygen python
 From within working project directory, with appropriately documented python/C/Java code...
 
 	git submodule add https://github.com/ZachDischner/DoxyDocs.git doc
+	(from within doc I think)
+	git submodule init
+	git submodule update
 
 Configure the Doxyfile-Python to point to specific directories, for now it just looks one directory up (doc/..) and recursively searches for appropriate files
 
