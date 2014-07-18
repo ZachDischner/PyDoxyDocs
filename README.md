@@ -15,6 +15,7 @@ doxygen python
 
 ## Usage
 From within working project directory, with appropriately documented python/C/Java code...
+
 	git submodule add https://github.com/ZachDischner/DoxyDocs.git doc
 
 Configure the Doxyfile-Python to point to specific directories, for now it just looks one directory up (doc/..) and recursively searches for appropriate files
@@ -23,3 +24,5 @@ Configure the Doxyfile-Python to point to specific directories, for now it just 
 	doxygen Doxyfile-Python
 
 View code generated documentation in doc/html/index.html
+
+*SOMETIME PUT TOGETHER A REPO EXAMPLE
